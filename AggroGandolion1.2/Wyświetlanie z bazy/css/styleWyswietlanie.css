@@ -1,0 +1,75 @@
+body{
+  background-image: url("./tło.jpg");
+}
+/*#pojemnik{
+margin-left: auto;
+margin-right: auto;
+  width: 1024px;
+  min-height: 1300px;
+  height: 100%;
+  background-color: white;
+}*/
+.naglowek{
+  text-align: center;
+  padding-bottom:50px;
+}
+.dane{
+ padding-left: 20px;
+  font-size: 14px;
+}
+.oferta{
+  margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 3px;
+  width: 924px;
+  height: 230px;
+  background-color: grey;
+  opacity: 0.93;
+
+
+}
+#obrazekL{
+float:left;
+  padding: 20px;
+  width: 200px;
+  height: 190px;
+  text-align: center;
+  border-right: 2px dotted #cccccc;
+}
+#DaneR1{
+  color: white;
+  float: left;
+  width: 330px;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align:left;
+
+}
+
+#DaneR2{
+  float: left;
+  color: white;
+  font-size: 20px;
+height: 200px;
+width:auto;
+}
+
+input{
+  margin-top:20px;
+  width: 220px;
+  height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #19A215;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+
+}
+.in{
+  text-align: center;
+}
+#przy:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+.poprwanoscformularza{
+  color: red;
+
+}
+
+h1 {
+  margin:0 auto;
+}
+.iinput{
+  font-size: 16px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+  height:40px;
+}
+#dodaj{
+  border-bottom: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 60%;
+  height: 70px;
+  background: #19A215;
+  border: 2px outset #19A215;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+#nazwaDodaj{
+  text-align: center;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 20px;
+border-bottom: 20px;
+
+}
+.input_dod{
+text-align: center;
+}
+#dodaj:hover{
+  cursor: pointer;
+}
+.butt_dod{
+  border-bottom: 20px;
+}

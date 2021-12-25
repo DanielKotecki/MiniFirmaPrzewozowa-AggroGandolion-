@@ -1,0 +1,16 @@
+{
+  "name": "arrow",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "23012c4e68769e1f133bba1f93a734d1",
+      "css": "right",
+      "code": 59392,
+      "src": "elusive"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+
+/****** lgoin.php ****** */
+
+.loginBg {
+  margin:0;
+  padding:0;
+  background:url("../img/loginBg.png") no-repeat fixed center;
+  background-size: 100% 100%;
+  /* #overflow:hidden; */
+}
+
+/* .container {
+  width:100%;
+  margin:0 auto !important;
+  height:50%;
+  border:2px solid green;
+} */
+
+#loginForm {
+  width:60%;
+  min-height:40%;
+  height:auto;
+  border:3px solid black;
+  padding:30px;
+  margin:0 auto;
+  margin-top:10%;
+  background:#fff;
+}
+
+.loginPar {
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+}
+
+#loginButton {
+  width:80%;
+  height:50px;
+  margin:0 auto !important;
+  background:#19A215;
+  border: 2px outset #19A215;
+  color:#fff;
+  font-weight:bold;
+}
+
+#loginRegisterButton {
+  width:50%;
+  height:50px;
+  margin:0 auto !important;
+  background:orange;
+  border:2px outset orange;
+  color:#fff;
+  font-weight:bold;
+  margin-top:5px !important;
+}
+
+#loginH2 {
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+#loginButton:hover {
+  background:#4DC43B;
+}
+
+#loginMail, #loginPassword {
+  border:1px solid blue;
+}
+
+#forgotPassword {
+  text-align:center;
+}
+
+#loginFooter {
+  margin-top:16.2%;
+  font-size:16px;
+  width:100%;
+  line-height: 50px;
+  text-align:center;
+  background:white;
+  border-top:3px solid black;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+}
+
+/******* register.php *******/
+
+.registerBg {
+  margin:0;
+  padding:0;
+  background:url("../img/registerBg.png") no-repeat fixed center;
+  background-size: 120% 120%;
+  /* #overflow:hidden; */
+}
+
+#registerForm {
+  width:60%;
+  min-height:40%;
+  height:auto;
+  border:3px solid black;
+  padding:30px;
+  margin:0 auto;
+  margin-top:5%;
+  background:#fff;
+}
+
+#registerH2 {
+  text-align:center;
+  color:white;
+  background:orange;
+  padding:10px;
+  border:2px outset orange;
+  margin-bottom:30px;
+}
+
+#registerRegisterButton {
+  width:80%;
+  height:50px;
+  margin-top:20px;
+  background:#f4b700;
+  border:2px outset #f4b700;
+  color:white;
+  font-size:24px;
+}
+
+#registerRegisterButton:hover{
+  background: #ff9e21;
+}
+
+#registerFooter {
+  margin-top:9.3%;
+  font-size:16px;
+  width:100%;
+  line-height: 50px;
+  text-align:center;
+  background:white;
+  border-top:3px solid black;
+  clear: both;
+  position: relative;
+  bottom: 0;
+}
+
+.avatar {
+  width:200px;
+  height:200px;
+  border:2px solid black;
+  margin:0 auto;
+  margin-bottom:10px;
+  border-radius:50%;
+}
+
+#registerCaptcha {
+  margin-top:5%;
+}
+
+/******* finalRegister *******/
+
+#finalRegisterFooter {
+  margin-top:5%;
+  font-size:16px;
+  width:100%;
+  line-height: 50px;
+  text-align:center;
+  background:white;
+  border-top:3px solid black;
+  clear: both;
+  position: relative;
+  bottom: 0;
+}
+
+/******* mainPage *******/
+
+body
+{
+  margin: 0;
+  font-family: segoe UI;
+}
+
+
+.header-area
+{
+  background: url("./../img/mainPage/bg.jpg");
+  color: #fff;
+  text-align: center;
+  height:auto;
+  padding-bottom:3.5%;
+  background-size: 100% 120%;
+}
+
+#login {
+
+  width:95%;
+  text-align:right !important;
+  display:block;
+}
+
+#login a {
+
+  text-decoration: none;
+  color:#e0e0e0;
+
+
+}
+
+#login a:hover {
+
+  color:white;
+
+}
+
+
+.container
+{
+  /* width: 60%; */
+  margin: auto;
+}
+
+.header-area h1
+{
+  text-transform: uppercase;
+}
+
+.header-area img
+{
+  width: 100px;
+  height: auto;
+
+}
+
+.header-area p
+{
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.header-area a i
+{
+  color: white;
+  font-size: 36px;
+  padding: 6px 6px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.about::before {
+
+  background:url("../../img/mainPage/bg.jpg");
+  opacity:0.5;
+
+}
+
+
+.about
+{
+  padding: 40px 0;
+  overflow:hidden;
+  background:white;
+  background-size:cover;
+  background-position: center;
+}
+
+.content
+{
+  text-align: center;
+  font-size: 13px;
+  color: rgb(33,37,43);
+}
+
+.aboutH3 {
+  font-weight:bold !important;
+}
+
+
+.about h2
+{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.col
+{
+  width: 31.33%;
+  float: left;
+  overflow: hidden;
+  margin: 0 1%;
+  color: rgb(33,37,43);
+}
+
+.desc {
+  width: 29%;
+  float: left;
+  overflow: hidden;
+  margin: 0 1%;
+  color: rgb(33,37,43);
+  padding:20px;
+  border:2px solid transparent;
+  margin-top:20px;
+  transform:scale(1,1);
+  transition-duration:0.3s;
+  margin-left:10%;
+}
+
+
+.desc:hover {
+  border:2px solid black;
+  transition-duration:0.3s;
+  transform:scale(1.1,1.1);
+}
+
+.video-container {
+  position: relative;
+}
+
+#logo {
+  display:block;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#companyName {
+  font-size:2em;
+  color:#DA2F05;
+}
+
+.overlay-desc h2 {
+  color: white;
+  font-family: 'verdana', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background:rgba(192,192,192,0.5);
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.portfolio
+{
+  background:#21252B;
+  padding:40px 0px;
+  color:white;
+}
+
+.portfolio h2 {
+
+  fon-size:40px;
+  text-transform: uppercase;
+  text-align:center;
+
+}
+
+.work ul {
+
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align: center;
+  margin-bottom:40px;
+
+}
+
+.work ul li {
+
+  display:inline;
+  margin-right:15px;
+
+}
+
+.work ul li a {
+
+  text-decoration:none;
+  color:#FFF;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  padding:3px 0;
+}
+
+.work ul li a:hover {
+
+  border-bottom: 2px solid orange;
+
+}
+
+.col img {
+
+  width:99%;
+  transition-duration:0.3s;
+  border: 2px solid white;
+
+}
+
+.col img:hover {
+
+  border:2px solid orange;
+  opacity:0.7;
+  transition-duration:0.3s;
+  cursor:pointer;
+
+}
+
+.col h3 {
+
+  text-align:center;
+  font-weight:normal;
+  margin: 0;
+
+}
+
+.col h3 a {
+
+  color:white;
+  text-decoration: none;
+
+}
+
+.col a {
+
+  text-align:center;
+  text-decoration: none;
+  color:#818BAA;
+  display:block;
+  margin-bottom:30px;
+
+}

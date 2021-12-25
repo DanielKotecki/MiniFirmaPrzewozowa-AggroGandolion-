@@ -1,0 +1,52 @@
+#Top{
+  width: 1024px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #333438;
+  opacity: 0.9;
+}
+#LogoL{
+  float: left;
+  width: 200px;
+  height: 80px;
+  border-right: 2px dotted #cccccc;
+}
+
+#zakladki{
+float: left;
+width: 624px;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+#wyloguj{
+  float: left;
+  width: 195px;
+  height: 80px;
+  color: white;
+  border-left:  2px dotted #cccccc;
+}
+#wy{
+  text-align: center;
+
+}
+#wyloguj:hover{
+  cursor: pointer;
+  background-color: #000000
+}
+.op{
+  float: left;
+  padding-left: 7px;
+  margin-left: auto;
+  margin-right:auto;
+  color:white;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+}
+.op:hover{
+  cursor: pointer;
+  background-color: #000000;
+}
